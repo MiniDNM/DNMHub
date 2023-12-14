@@ -1,0 +1,227 @@
+body
+{
+	font-family: Roboto;
+	font-size: 18px;
+	background-color: #C2C2C2;
+}
+
+/* The following code 
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+} is adapted from "https://stackoverflow.com/questions/53565689/why-is-the-whitespace-to-the-left-and-right-of-a-centered-and-hyperlinked-image" by hungerstar */
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column img {
+	width: 900px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #09090B
+}
+
+/* The following code 
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}is adapted from "https://www.w3schools.com/howto/howto_css_register_form.asp" */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contact {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.contact form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* The following code .contact form input[type="checkbox"] {
+    height: 16px; 
+    position: relative;
+    top: 29px;
+left: -80px;
+}  
+is adapted from "https://www.w3docs.com/snippets/css/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers.html" */
+.contact form input[type="checkbox"] {
+    height: 16px; 
+    position: relative;
+    top: 29px;
+left: -80px;
+} 
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+.contact form input[type="submit"] {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* The following code legend {
+	text-align: center;
+}
+is adapted from "https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu" by asfsadf */
+legend {
+	text-align: center;
+}
+
+.grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .grid-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+	
+.grid-item:hover {
+	transform: scale(1.05) ;
+}
